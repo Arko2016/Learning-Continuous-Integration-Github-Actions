@@ -33,13 +33,6 @@ def fifth(n):
     else:
         return n ** 5
 
-#Define function to compute fifthe power
-def square(n):
-    if not isinstance(n,int):
-        raise TypeError("input has to be integer")
-    else:
-        return n ** 5
-
 #Test square function
 def test_square():
     assert square(2) == 4, "Test failed, square of 2 should be 4"
@@ -52,8 +45,8 @@ def test_cube():
 
 #Test fifth power function
 def test_fifth():
-    assert fifth(2) == 32, "Test failed, cube of 2 should be 32"
-    assert fifth(3) == 243, "Test failed, cube of 3 should be 243"
+    assert fifth(2) == 32, "Test failed, fifth power of 2 should be 32"
+    assert fifth(3) == 243, "Test failed, fifth power of 3 should be 243"
 
 
 
